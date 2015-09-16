@@ -9,5 +9,31 @@
 #import <UIKit/UIKit.h>
 
 @interface IAtopView : UIView
+@property (weak, nonatomic) IBOutlet UIButton *Figure;
+@property (weak, nonatomic) IBOutlet UIImageView *power;
+@property (weak, nonatomic) IBOutlet UILabel *powerLable;
+@property (weak, nonatomic) IBOutlet UIImageView *wisdom;
+@property (weak, nonatomic) IBOutlet UILabel *wisdomLable;
+@property (weak, nonatomic) IBOutlet UIImageView *Skill;
+@property (weak, nonatomic) IBOutlet UILabel *SkillLable;
+@property (weak, nonatomic) IBOutlet UIImageView *corporeity;
+@property (weak, nonatomic) IBOutlet UILabel *corporeityLable;
+@property (weak, nonatomic) IBOutlet UIImageView *gold;
+@property (weak, nonatomic) IBOutlet UILabel *goldLable;
+@property (weak, nonatomic) IBOutlet UIImageView *Attack;
+@property (weak, nonatomic) IBOutlet UILabel *AttackLable;
+@property (weak, nonatomic) IBOutlet UIImageView *mana;
+@property (weak, nonatomic) IBOutlet UILabel *manaLable;
+@property (weak, nonatomic) IBOutlet UIImageView *Hitrate;
+@property (weak, nonatomic) IBOutlet UILabel *HitrateLable;
+@property (weak, nonatomic) IBOutlet UIImageView *resistance;
+@property (weak, nonatomic) IBOutlet UILabel *resistanceLable;
+@property (weak, nonatomic) IBOutlet UIButton *accouter;
+@property (weak, nonatomic) IBOutlet UILabel *lv;
+@property (weak, nonatomic) IBOutlet UILabel *Experience;
+@property (weak, nonatomic) IBOutlet UIButton *god;
+@property (weak, nonatomic) IBOutlet UILabel *Checkpoint;
+@property (weak, nonatomic) IBOutlet UIButton *Flee;
+@property (weak, nonatomic) IBOutlet UIButton *Setup;
 +(instancetype)IAtopView;
 @end

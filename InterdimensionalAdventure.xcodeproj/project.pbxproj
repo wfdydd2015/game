@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C786B9B81BA95F390047D4F5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C786B9B71BA95F390047D4F5 /* UIView+Extension.m */; };
 		C7A1E1F31BA910AE007EC152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E1F21BA910AE007EC152 /* main.m */; };
 		C7A1E1F61BA910AE007EC152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E1F51BA910AE007EC152 /* AppDelegate.m */; };
 		C7A1E1F91BA910AE007EC152 /* InterdimensionalAdventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E1F71BA910AE007EC152 /* InterdimensionalAdventure.xcdatamodeld */; };
@@ -24,6 +23,7 @@
 		C7A1E2371BA94DF8007EC152 /* IAbottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A1E2361BA94DF8007EC152 /* IAbottomView.xib */; };
 		C7A1E2401BA95099007EC152 /* IAtopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E23F1BA95099007EC152 /* IAtopView.m */; };
 		C7A1E2431BA950AB007EC152 /* IAbottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E2421BA950AB007EC152 /* IAbottomView.m */; };
+		C7A1E2471BA95B13007EC152 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E2461BA95B13007EC152 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C786B9B61BA95F390047D4F5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		C786B9B71BA95F390047D4F5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		C7A1E1ED1BA910AE007EC152 /* InterdimensionalAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterdimensionalAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A1E1F11BA910AE007EC152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A1E1F21BA910AE007EC152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,6 +63,8 @@
 		C7A1E23F1BA95099007EC152 /* IAtopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAtopView.m; sourceTree = "<group>"; };
 		C7A1E2411BA950AB007EC152 /* IAbottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAbottomView.h; sourceTree = "<group>"; };
 		C7A1E2421BA950AB007EC152 /* IAbottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAbottomView.m; sourceTree = "<group>"; };
+		C7A1E2451BA95B13007EC152 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C7A1E2461BA95B13007EC152 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +164,7 @@
 		C7A1E21B1BA913DC007EC152 /* other */ = {
 			isa = PBXGroup;
 			children = (
-				C786B9B61BA95F390047D4F5 /* UIView+Extension.h */,
-				C786B9B71BA95F390047D4F5 /* UIView+Extension.m */,
+				C7A1E2441BA95AF8007EC152 /* 工具类 */,
 				C7A1E1F41BA910AE007EC152 /* AppDelegate.h */,
 				C7A1E1F51BA910AE007EC152 /* AppDelegate.m */,
 			);
@@ -229,6 +228,15 @@
 				C7A1E2421BA950AB007EC152 /* IAbottomView.m */,
 			);
 			name = bottomview;
+			sourceTree = "<group>";
+		};
+		C7A1E2441BA95AF8007EC152 /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				C7A1E2451BA95B13007EC152 /* UIView+Extension.h */,
+				C7A1E2461BA95B13007EC152 /* UIView+Extension.m */,
+			);
+			name = "工具类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,7 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C786B9B81BA95F390047D4F5 /* UIView+Extension.m in Sources */,
+				C7A1E2471BA95B13007EC152 /* UIView+Extension.m in Sources */,
 				C7A1E1F61BA910AE007EC152 /* AppDelegate.m in Sources */,
 				C7A1E1F31BA910AE007EC152 /* main.m in Sources */,
 				C7A1E1F91BA910AE007EC152 /* InterdimensionalAdventure.xcdatamodeld in Sources */,
