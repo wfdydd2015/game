@@ -10,11 +10,19 @@
 		C7A1E1F31BA910AE007EC152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E1F21BA910AE007EC152 /* main.m */; };
 		C7A1E1F61BA910AE007EC152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E1F51BA910AE007EC152 /* AppDelegate.m */; };
 		C7A1E1F91BA910AE007EC152 /* InterdimensionalAdventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E1F71BA910AE007EC152 /* InterdimensionalAdventure.xcdatamodeld */; };
-		C7A1E1FC1BA910AE007EC152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E1FB1BA910AE007EC152 /* ViewController.m */; };
 		C7A1E1FF1BA910AE007EC152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A1E1FD1BA910AE007EC152 /* Main.storyboard */; };
 		C7A1E2011BA910AE007EC152 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A1E2001BA910AE007EC152 /* Images.xcassets */; };
 		C7A1E2041BA910AE007EC152 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A1E2021BA910AE007EC152 /* LaunchScreen.xib */; };
 		C7A1E2101BA910AE007EC152 /* InterdimensionalAdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E20F1BA910AE007EC152 /* InterdimensionalAdventureTests.m */; };
+		C7A1E21F1BA91E3E007EC152 /* IAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E21E1BA91E3E007EC152 /* IAHomeViewController.m */; };
+		C7A1E2241BA9201E007EC152 /* IAHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E2231BA9201E007EC152 /* IAHelpViewController.m */; };
+		C7A1E2281BA9206C007EC152 /* IAHelpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A1E2271BA9206C007EC152 /* IAHelpStoryboard.storyboard */; };
+		C7A1E22B1BA94308007EC152 /* IATownStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A1E22A1BA94308007EC152 /* IATownStoryboard.storyboard */; };
+		C7A1E22E1BA943C9007EC152 /* IATownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E22D1BA943C9007EC152 /* IATownViewController.m */; };
+		C7A1E2321BA94C4D007EC152 /* IAtopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A1E2311BA94C4D007EC152 /* IAtopView.xib */; };
+		C7A1E2371BA94DF8007EC152 /* IAbottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A1E2361BA94DF8007EC152 /* IAbottomView.xib */; };
+		C7A1E2401BA95099007EC152 /* IAtopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E23F1BA95099007EC152 /* IAtopView.m */; };
+		C7A1E2431BA950AB007EC152 /* IAbottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A1E2421BA950AB007EC152 /* IAbottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +42,26 @@
 		C7A1E1F41BA910AE007EC152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7A1E1F51BA910AE007EC152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C7A1E1F81BA910AE007EC152 /* InterdimensionalAdventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InterdimensionalAdventure.xcdatamodel; sourceTree = "<group>"; };
-		C7A1E1FA1BA910AE007EC152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C7A1E1FB1BA910AE007EC152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C7A1E1FE1BA910AE007EC152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7A1E2001BA910AE007EC152 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7A1E2031BA910AE007EC152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C7A1E2091BA910AE007EC152 /* InterdimensionalAdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterdimensionalAdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A1E20E1BA910AE007EC152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A1E20F1BA910AE007EC152 /* InterdimensionalAdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterdimensionalAdventureTests.m; sourceTree = "<group>"; };
+		C7A1E21D1BA91E3E007EC152 /* IAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAHomeViewController.h; sourceTree = "<group>"; };
+		C7A1E21E1BA91E3E007EC152 /* IAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAHomeViewController.m; sourceTree = "<group>"; };
+		C7A1E2221BA9201E007EC152 /* IAHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAHelpViewController.h; sourceTree = "<group>"; };
+		C7A1E2231BA9201E007EC152 /* IAHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAHelpViewController.m; sourceTree = "<group>"; };
+		C7A1E2271BA9206C007EC152 /* IAHelpStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IAHelpStoryboard.storyboard; sourceTree = "<group>"; };
+		C7A1E22A1BA94308007EC152 /* IATownStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IATownStoryboard.storyboard; sourceTree = "<group>"; };
+		C7A1E22C1BA943C9007EC152 /* IATownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATownViewController.h; sourceTree = "<group>"; };
+		C7A1E22D1BA943C9007EC152 /* IATownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATownViewController.m; sourceTree = "<group>"; };
+		C7A1E2311BA94C4D007EC152 /* IAtopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IAtopView.xib; sourceTree = "<group>"; };
+		C7A1E2361BA94DF8007EC152 /* IAbottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IAbottomView.xib; sourceTree = "<group>"; };
+		C7A1E23E1BA95099007EC152 /* IAtopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAtopView.h; sourceTree = "<group>"; };
+		C7A1E23F1BA95099007EC152 /* IAtopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAtopView.m; sourceTree = "<group>"; };
+		C7A1E2411BA950AB007EC152 /* IAbottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAbottomView.h; sourceTree = "<group>"; };
+		C7A1E2421BA950AB007EC152 /* IAbottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAbottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +103,10 @@
 		C7A1E1EF1BA910AE007EC152 /* InterdimensionalAdventure */ = {
 			isa = PBXGroup;
 			children = (
-				C7A1E1F41BA910AE007EC152 /* AppDelegate.h */,
-				C7A1E1F51BA910AE007EC152 /* AppDelegate.m */,
-				C7A1E1FA1BA910AE007EC152 /* ViewController.h */,
-				C7A1E1FB1BA910AE007EC152 /* ViewController.m */,
+				C7A1E21C1BA91437007EC152 /* Controllers */,
+				C7A1E21B1BA913DC007EC152 /* other */,
+				C7A1E21A1BA913D5007EC152 /* view */,
+				C7A1E2191BA913CC007EC152 /* model */,
 				C7A1E1FD1BA910AE007EC152 /* Main.storyboard */,
 				C7A1E2001BA910AE007EC152 /* Images.xcassets */,
 				C7A1E2021BA910AE007EC152 /* LaunchScreen.xib */,
@@ -120,6 +140,90 @@
 				C7A1E20E1BA910AE007EC152 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7A1E2191BA913CC007EC152 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		C7A1E21A1BA913D5007EC152 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C7A1E2301BA94A85007EC152 /* bottomview */,
+				C7A1E22F1BA94A7B007EC152 /* topview */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		C7A1E21B1BA913DC007EC152 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				C7A1E1F41BA910AE007EC152 /* AppDelegate.h */,
+				C7A1E1F51BA910AE007EC152 /* AppDelegate.m */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		C7A1E21C1BA91437007EC152 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7A1E2291BA942C7007EC152 /* 城镇界面 */,
+				C7A1E2211BA91FE3007EC152 /* 新手教学 */,
+				C7A1E2201BA91FD6007EC152 /* 开始界面 */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C7A1E2201BA91FD6007EC152 /* 开始界面 */ = {
+			isa = PBXGroup;
+			children = (
+				C7A1E21D1BA91E3E007EC152 /* IAHomeViewController.h */,
+				C7A1E21E1BA91E3E007EC152 /* IAHomeViewController.m */,
+			);
+			name = "开始界面";
+			sourceTree = "<group>";
+		};
+		C7A1E2211BA91FE3007EC152 /* 新手教学 */ = {
+			isa = PBXGroup;
+			children = (
+				C7A1E2221BA9201E007EC152 /* IAHelpViewController.h */,
+				C7A1E2231BA9201E007EC152 /* IAHelpViewController.m */,
+				C7A1E2271BA9206C007EC152 /* IAHelpStoryboard.storyboard */,
+			);
+			name = "新手教学";
+			sourceTree = "<group>";
+		};
+		C7A1E2291BA942C7007EC152 /* 城镇界面 */ = {
+			isa = PBXGroup;
+			children = (
+				C7A1E22A1BA94308007EC152 /* IATownStoryboard.storyboard */,
+				C7A1E22C1BA943C9007EC152 /* IATownViewController.h */,
+				C7A1E22D1BA943C9007EC152 /* IATownViewController.m */,
+			);
+			name = "城镇界面";
+			sourceTree = "<group>";
+		};
+		C7A1E22F1BA94A7B007EC152 /* topview */ = {
+			isa = PBXGroup;
+			children = (
+				C7A1E2311BA94C4D007EC152 /* IAtopView.xib */,
+				C7A1E23E1BA95099007EC152 /* IAtopView.h */,
+				C7A1E23F1BA95099007EC152 /* IAtopView.m */,
+			);
+			name = topview;
+			sourceTree = "<group>";
+		};
+		C7A1E2301BA94A85007EC152 /* bottomview */ = {
+			isa = PBXGroup;
+			children = (
+				C7A1E2361BA94DF8007EC152 /* IAbottomView.xib */,
+				C7A1E2411BA950AB007EC152 /* IAbottomView.h */,
+				C7A1E2421BA950AB007EC152 /* IAbottomView.m */,
+			);
+			name = bottomview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +308,11 @@
 			files = (
 				C7A1E1FF1BA910AE007EC152 /* Main.storyboard in Resources */,
 				C7A1E2041BA910AE007EC152 /* LaunchScreen.xib in Resources */,
+				C7A1E2281BA9206C007EC152 /* IAHelpStoryboard.storyboard in Resources */,
 				C7A1E2011BA910AE007EC152 /* Images.xcassets in Resources */,
+				C7A1E2321BA94C4D007EC152 /* IAtopView.xib in Resources */,
+				C7A1E22B1BA94308007EC152 /* IATownStoryboard.storyboard in Resources */,
+				C7A1E2371BA94DF8007EC152 /* IAbottomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +332,12 @@
 			files = (
 				C7A1E1F61BA910AE007EC152 /* AppDelegate.m in Sources */,
 				C7A1E1F31BA910AE007EC152 /* main.m in Sources */,
-				C7A1E1FC1BA910AE007EC152 /* ViewController.m in Sources */,
 				C7A1E1F91BA910AE007EC152 /* InterdimensionalAdventure.xcdatamodeld in Sources */,
+				C7A1E2431BA950AB007EC152 /* IAbottomView.m in Sources */,
+				C7A1E2241BA9201E007EC152 /* IAHelpViewController.m in Sources */,
+				C7A1E22E1BA943C9007EC152 /* IATownViewController.m in Sources */,
+				C7A1E2401BA95099007EC152 /* IAtopView.m in Sources */,
+				C7A1E21F1BA91E3E007EC152 /* IAHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +534,7 @@
 				C7A1E2151BA910AE007EC152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A1E2161BA910AE007EC152 /* Build configuration list for PBXNativeTarget "InterdimensionalAdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +543,7 @@
 				C7A1E2181BA910AE007EC152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
